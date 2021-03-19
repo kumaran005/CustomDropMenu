@@ -13,17 +13,17 @@ class MyApp extends StatelessWidget {
         splashColor: Colors.transparent,
       ),
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: Home(),
     );
   }
 }
 
-class HomePage extends StatefulWidget {
+class Home extends StatefulWidget {
   @override
   _HomePageState createState() => _HomePageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _HomePageState extends State<Home> {
   TextEditingController _controller;
   String status = "Status";
   List<String> menuItems = ['Profile', 'Value', 'Setting'];
